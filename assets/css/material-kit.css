@@ -316,7 +316,8 @@ template {
   .container {
     min-width: 992px !important; }
   .navbar {
-    display: none; }
+    display: none;
+    background-color: #000 !important; }
   .badge {
     border: 1px solid #000; }
   .table {
@@ -3461,7 +3462,8 @@ tbody.collapse.show {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0.5rem 1rem; }
+  padding: 0.5rem 1rem;
+  background-color: rgba(0, 0, 0, 0.5) !important; }
   .navbar > .container,
   .navbar > .container-fluid {
     display: -webkit-box;
@@ -11165,7 +11167,6 @@ textarea {
   padding: 0.625rem 0;
   margin-bottom: 20px;
   color: #555;
-  background-color: #fff !important;
   -webkit-box-shadow: 0 4px 18px 0px rgba(0, 0, 0, 0.12), 0 7px 10px -5px rgba(0, 0, 0, 0.15);
           box-shadow: 0 4px 18px 0px rgba(0, 0, 0, 0.12), 0 7px 10px -5px rgba(0, 0, 0, 0.15); }
   .navbar .dropdown-item:hover,
@@ -11258,7 +11259,6 @@ textarea {
             flex: 1; }
   .navbar.bg-primary {
     color: #fff;
-    background-color: #9c27b0 !important;
     -webkit-box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(156, 39, 176, 0.46);
             box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(156, 39, 176, 0.46); }
     .navbar.bg-primary .dropdown-item:hover,
@@ -11271,7 +11271,6 @@ textarea {
       background-color: #fff; }
   .navbar.bg-info {
     color: #fff;
-    background-color: #00bcd4 !important;
     -webkit-box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(0, 188, 212, 0.46);
             box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(0, 188, 212, 0.46); }
     .navbar.bg-info .dropdown-item:hover,
@@ -11284,7 +11283,6 @@ textarea {
       background-color: #fff; }
   .navbar.bg-warning {
     color: #fff;
-    background-color: #ff9800 !important;
     -webkit-box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(255, 152, 0, 0.46);
             box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(255, 152, 0, 0.46); }
     .navbar.bg-warning .dropdown-item:hover,
@@ -11297,7 +11295,6 @@ textarea {
       background-color: #fff; }
   .navbar.bg-rose {
     color: #fff;
-    background-color: #e91e63 !important;
     -webkit-box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(233, 30, 99, 0.46);
             box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(233, 30, 99, 0.46); }
     .navbar.bg-rose .dropdown-item:hover,
@@ -11310,7 +11307,6 @@ textarea {
       background-color: #fff; }
   .navbar.bg-danger {
     color: #fff;
-    background-color: #f44336 !important;
     -webkit-box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(244, 67, 54, 0.46);
             box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(244, 67, 54, 0.46); }
     .navbar.bg-danger .dropdown-item:hover,
@@ -11323,7 +11319,6 @@ textarea {
       background-color: #fff; }
   .navbar.bg-success {
     color: #fff;
-    background-color: #4caf50 !important;
     -webkit-box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(76, 175, 80, 0.46);
             box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(76, 175, 80, 0.46); }
     .navbar.bg-success .dropdown-item:hover,
@@ -11336,7 +11331,6 @@ textarea {
       background-color: #fff; }
   .navbar.bg-dark {
     color: #fff;
-    background-color: #212121 !important;
     -webkit-box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(33, 33, 33, 0.46);
             box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(33, 33, 33, 0.46); }
     .navbar.bg-dark .dropdown-item:hover,
