@@ -1083,15 +1083,6 @@ section {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
-  .main-title h2 {
-    font-size: 3rem;
-  }
-  .main-title h2 span {
-    font-size: 3rem;
-  }
-  .main-title h2 .bg-text {
-    font-size: 4rem;
-  }
   .portfolios {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -1104,6 +1095,27 @@ section {
   }
   .main-title h2 .bg-text {
     font-size: 3rem;
+  }
+  .portfolio .main-title h2 {
+    font-size: 1rem;
+  }
+  .portfolio .main-title h2 span {
+    font-size: 1.5rem;
+  }
+  .portfolio .main-title h2 .bg-text {
+    font-size: 2rem;
+  }
+  .about .about-container .left-about h4 {
+    font-size: 1.3rem;
+  }
+  .about .main-title h2 {
+    font-size: 1rem;
+  }
+  .about .main-title h2 span {
+    font-size: 1.5rem;
+  }
+  .about .main-title h2 .bg-text {
+    font-size: 2rem;
   }
   .contact-info .contact-item {
     font-size: .8rem;

@@ -165,17 +165,7 @@
         }
     }
     
-    .main-title{
-        h2{
-            font-size: 3rem;
-            span{
-                font-size: 3rem;
-            }
-            .bg-text{
-                font-size: 4rem;
-            }
-        }
-    }
+ 
 
     .portfolios{
         grid-template-columns:  1fr;
@@ -188,6 +178,39 @@
             }
             .bg-text{
                 font-size: 3rem;
+            }
+        }
+    }
+    .portfolio{
+        .main-title{
+            h2{
+                font-size: 1rem;
+                span{
+                    font-size: 1.5rem;
+                }
+                .bg-text{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+    .about{
+        .about-container{
+            .left-about{
+                h4{
+                    font-size: 1.3rem;
+                }
+            }
+        }
+        .main-title{
+            h2{
+                font-size: 1rem;
+                span{
+                    font-size: 1.5rem;
+                }
+                .bg-text{
+                    font-size: 2rem;
+                }
             }
         }
     }
