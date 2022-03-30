@@ -949,8 +949,8 @@ section {
     padding-bottom: 6rem;
   }
   .portfolios {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    -ms-grid-columns: 1 1fr;
+        grid-template-columns: 1 1fr;
     padding-bottom: 6rem;
   }
   .section {
@@ -1091,6 +1091,22 @@ section {
   }
   .main-title h2 .bg-text {
     font-size: 4rem;
+  }
+  .portfolios {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .main-title h2 {
+    font-size: 4rem;
+  }
+  .main-title h2 span {
+    font-size: 3rem;
+  }
+  .main-title h2 .bg-text {
+    font-size: 4.5rem;
+  }
+  .contact-info .contact-item {
+    font-size: .8rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
